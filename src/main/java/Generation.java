@@ -1,8 +1,10 @@
-import Generators.OrdersGenerator;
+import Generators.DOrdersGenerator;
+import Generators.ProducerDetailsGenerator;
 
 public class Generation {
     public static void main(String[] args) {
 //        new BrandGenerator().generate();
+//        new BrandOriginGenerator().generate();
 //        new ModelGenerator().generate();
 //        new SocketGenerator().generate();
 //        new ScreenGenerator().generate();
@@ -20,7 +22,9 @@ public class Generation {
 //        new LaptopKitGenerator().generate();
 //        new DesktopKitGenerator().generate();
 //        new CustomerGenerator().generate();
-        new OrdersGenerator().generate();
+//        new OrdersGenerator().generate();
+//        new ProducerDetailsGenerator().generate();
+//        new DOrdersGenerator().generate();
     }
 }
 
